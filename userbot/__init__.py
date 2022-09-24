@@ -14,8 +14,8 @@ LOGS = logging.getLogger("uui9u")
 bot = iqthon
 StartTime = time.time()
 catversion = "7.2"
-if Config.UPSTREAM_REPO == "TeleOniOn":
-    UPSTREAM_REPO_URL = "https://github.com/TeleOniOn/TelethonArab"
+if Config.UPSTREAM_REPO == "devbarlo":
+    UPSTREAM_REPO_URL = "https://github.com/devbarlo/Arab"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 if Config.PRIVATE_GROUP_BOT_API_ID == 0:
